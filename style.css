@@ -1,0 +1,68 @@
+body{
+    background-color: pink;
+    background-image: url('img/orig.webp');
+    text-align: center;
+}
+
+#new_image{
+    padding: 100px;
+}
+
+
+#general_div{
+    width: 700px;
+    height: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div_buttons{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#agree_button{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: bisque;
+    font-size: 60px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#disagree_button{
+    background-color: darkred;
+    border: none;
+    border-radius: 10px;
+    color: bisque;
+    font-size: 60px;
+    margin-left: 15px;
+    padding: 5px;
+
+}
+
+#agree_button:hover{
+    transition: 0.5s;
+    background-color: rgb(121, 185, 24);
+    box-shadow: 5px 5px 3px rgb(255, 255, 255) ;
+}
+
+#disagree_button:hover{
+    transition: 0.5s;
+    background-color: rgb(120, 0, 0);
+    box-shadow: 5px 5px 3px rgb(255, 255, 255) ;
+
+}
+
+#general_div h1{
+    color: rgb(97, 0, 0);
+}
+
+#general_div img{
+    border-radius: 15px;
+    margin-left: 20px;
+
+}
